@@ -1,0 +1,57 @@
+
+# ==============================
+# Node.js / React / Vite
+# ==============================
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Package manager logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ==============================
+# Environment variables / secrets
+# ==============================
+.env
+.env.*
+!.env.example
+
+# ==============================
+# Java / Spring Boot / Maven
+# ==============================
+backend/target/
+backend/build/
+backend/out/
+backend/hs_err_pid*.log
+
+# Java crash reports
+hs_err_pid*.log
+
+# ==============================
+# IDE files
+# ==============================
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.classpath
+.project
+.settings/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ==============================
+# Operating system files
+# ==============================
+.DS_Store
+Thumbs.db
+

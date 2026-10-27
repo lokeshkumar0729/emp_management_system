@@ -1,0 +1,7 @@
+# Local development only. Activate with set SPRING_PROFILES_ACTIVE=dev (see README).
+app:
+  jwt:
+    secret: dev-only-secret-change-me-dev-only-secret-change-me
+spring:
+  datasource:
+    password: ${lokesh229:root}
